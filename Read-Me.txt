@@ -5,3 +5,6 @@ All the libraries used were built in c++ libraries from the current version of c
 BoidsOMP must be built with G++ and BoidsMPI must be built with MPICPC
 
 the OMP prgram takes arguments threads, number of boids and the MPI program only takes one argument for the number of boids.
+
+
+Timer.cpp sourced from https://gist.github.com/mcleary/b0bf4fa88830ff7c882d
