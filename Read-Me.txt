@@ -1,0 +1,7 @@
+The BoidsFunctions.cpp and Timer.cpp files are referenced in the other files and do not need to be built.
+Just have them in the same folder as BoidsOMP.cpp and BoidsMPI.cpp.
+All the libraries used were built in c++ libraries from the current version of c++ used in GCC.
+
+BoidsOMP must be built with G++ and BoidsMPI must be built with MPICPC
+
+the OMP prgram takes arguments threads, number of boids and the MPI program only takes one argument for the number of boids.
